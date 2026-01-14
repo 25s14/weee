@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>poka</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page">
+
+    <!-- 上段：プログラム名・開発者 -->
+    <header class="top-section">
+      <h1 class="program-title">（プログラム名poka）</h1>
+      <p class="developer-name">開発者：（学籍番号と氏名25S14）</p>
+    </header>
+
+    <main class="middle-section">
+
+      <section class="preview-area">
+        <h2 class="section-title">プログラム動作イメージ</h2>
+        <div class="preview-box">
+         
+          <img
+            src="images/image.png"
+            alt="プログラム動作イメージ"
+            class="preview-image"
+          />
+        </div>
+      </section>
+
+      <!-- 右：概要とアピールポイント -->
+      <section class="description-area">
+        <h2 class="section-title">プログラム概要とアピールポイント</h2>
+        <div class="description-box">
+          <h3>概要</h3>
+          <p>
+            （概要を書いてください）<br />
+            （概要を書いてください）<br />
+            （概要を書いてください）<br />
+          </p>
+
+          <h3>アピールポイント</h3>
+          <ul>
+            <li>（アピールポイントを書いてください）</li>
+            <li>（アピールポイントを書いてください）</li>
+            <li>（アピールポイントを書いてください）</li>
+          </ul>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- 下段：開発環境・プログラム起動ボタン -->
+    <footer class="bottom-section">
+
+      <div class="info-row">
+        <span class="info-label">開発環境：</span>
+        <span class="info-value">
+          GitHub（HTML / CSS / JavaScript）
+        </span>
+      </div>
+
+      <div class="info-row">
+        <label class="info-label" for="program-path">
+          index.html の場所：
+        </label>
+        <input
+          id="program-path"
+          class="path-input"
+          type="text"
+          placeholder="file:///C:/Users/user/Documents/mygame/index.html"
+        />
+        <button id="launch-btn" class="launch-button">
+          プログラム起動
+        </button>
+      </div>
+
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
